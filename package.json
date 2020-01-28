@@ -2,6 +2,7 @@
   "private": true,
   "description": "Material Components Web",
   "license": "Apache-2.0",
+  "version": "0.38.1",
   "scripts": {
     "build": "npm run clean && mkdirp build && webpack --progress --colors",
     "build:demos": "npm run clean && mkdirp build && webpack --config=demos/webpack.config.js --progress --colors",
@@ -38,8 +39,7 @@
     "test:unit": "karma start --single-run",
     "test:closure": "./scripts/closure-test.sh",
     "test:dependency": "./scripts/dependency-test.sh",
-    "test:site": "npm run clean:site && ./scripts/site-generator-test.sh",
-    "version": "0.38.1"
+    "test:site": "npm run clean:site && ./scripts/site-generator-test.sh"
   },
   "devDependencies": {
     "@octokit/rest": "^15.9.4",
